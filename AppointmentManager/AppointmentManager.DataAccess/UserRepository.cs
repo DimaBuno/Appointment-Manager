@@ -13,7 +13,11 @@ namespace AppointmentManager.DataAccess
 
         public override IEnumerable<User> Query(Func<User, bool> filter)
         {
-            throw new NotImplementedException();
+            //TODO: Replace with real database.
+            return new List<User> {
+                new User { FirstName = "User", LastName = "1" },
+                new User { FirstName = "User", LastName = "2" }
+            };
         }
     }
 }
