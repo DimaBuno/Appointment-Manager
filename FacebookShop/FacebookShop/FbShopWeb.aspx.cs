@@ -17,22 +17,21 @@ namespace FacebookShop
         }
 
         protected void Button1_Click(object sender, EventArgs e)
-
         {
+            //clientDBDataContext db = new clientDBDataContext();
 
-            clientDBDataContext db = new clientDBDataContext();
+            //client tebl = new client
+            //{
+            //    Name = TextBox1.Text,
+            //    Email = TextBox2.Text,
+            //    Telephone = TextBox3.Text
+            //};
 
-            client tebl = new client();
+            SqlDataSource1.Insert();
 
-            tebl.Name = TextBox1.Text;
+            //db.InsertOnSubmit(tebl);
 
-            tebl.Email = TextBox2.Text;
-
-            tebl.Telephone = TextBox3.Text;
-
-            db.InsertOnSubmit(tebl);
-
-            db.SubmitChanges();
+            //db.SubmitChanges();
 
             Response.Redirect("/FbShopWeb.aspx");
 

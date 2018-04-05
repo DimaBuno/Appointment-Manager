@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            Id<asp:TextBox ID="TextBox0" runat="server"></asp:TextBox>
             Name<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             Email<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             Telephone<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
@@ -28,10 +29,10 @@
                 <asp:Parameter Name="Id" Type="Int32" />
             </DeleteParameters>
             <InsertParameters>
-                <asp:Parameter Name="Id" Type="Int32" />
-                <asp:Parameter Name="Name" Type="String" />
-                <asp:Parameter Name="Email" Type="String" />
-                <asp:Parameter Name="Telephone" Type="String" />
+                <asp:FormParameter Name="Id" Type="Int32" FormField="TextBox0"/>
+                <asp:FormParameter Name="Name" Type="String" FormField="TextBox1"/>
+                <asp:FormParameter Name="Email" Type="String" FormField="TextBox2"/>
+                <asp:FormParameter Name="Telephone" Type="String" FormField="TextBox3"/>
             </InsertParameters>
             <UpdateParameters>
                 <asp:Parameter Name="Name" Type="String" />

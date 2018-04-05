@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace FacebookShop
 {
-    internal class clientDBDataContext
+    internal class clientDBDataContext : DbContext
     {
         internal void SubmitChanges()
         {
