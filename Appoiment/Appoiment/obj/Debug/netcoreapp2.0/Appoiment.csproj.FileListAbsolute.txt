@@ -1,0 +1,11 @@
+C:\Users\artak\source\repos\Appoiment\Appoiment\bin\Debug\netcoreapp2.0\Appoiment.deps.json
+C:\Users\artak\source\repos\Appoiment\Appoiment\bin\Debug\netcoreapp2.0\Appoiment.runtimeconfig.json
+C:\Users\artak\source\repos\Appoiment\Appoiment\bin\Debug\netcoreapp2.0\Appoiment.runtimeconfig.dev.json
+C:\Users\artak\source\repos\Appoiment\Appoiment\bin\Debug\netcoreapp2.0\Appoiment.dll
+C:\Users\artak\source\repos\Appoiment\Appoiment\bin\Debug\netcoreapp2.0\Appoiment.pdb
+C:\Users\artak\source\repos\Appoiment\Appoiment\obj\Debug\netcoreapp2.0\Appoiment.csprojResolveAssemblyReference.cache
+C:\Users\artak\source\repos\Appoiment\Appoiment\obj\Debug\netcoreapp2.0\Appoiment.csproj.CoreCompileInputs.cache
+C:\Users\artak\source\repos\Appoiment\Appoiment\obj\Debug\netcoreapp2.0\Appoiment.AssemblyInfoInputs.cache
+C:\Users\artak\source\repos\Appoiment\Appoiment\obj\Debug\netcoreapp2.0\Appoiment.AssemblyInfo.cs
+C:\Users\artak\source\repos\Appoiment\Appoiment\obj\Debug\netcoreapp2.0\Appoiment.dll
+C:\Users\artak\source\repos\Appoiment\Appoiment\obj\Debug\netcoreapp2.0\Appoiment.pdb
