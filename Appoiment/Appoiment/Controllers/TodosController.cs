@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Appoiment.Data;
@@ -72,10 +70,8 @@ namespace Appoiment.Controllers
                 {
                     return NotFound();
                 }
-                else
-                {
-                    throw;
-                }
+
+                return BadRequest();
             }
 
             return NoContent();
@@ -93,7 +89,7 @@ namespace Appoiment.Controllers
             _context.Todos.Add(todo);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetTodo", new { id = todo.Id }, todo);
+            return CreatedAtAction("GetTodo", new {id = todo.Id}, todo);
         }
 
         // DELETE: api/Todos/5
